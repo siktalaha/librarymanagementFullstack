@@ -1,0 +1,53 @@
+.authentication-form{
+    width:400px;
+}
+.loaderParent{
+    position:fixed;
+    inset:0;
+    background-color: rgba(0, 0, 0, 0.562);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000000;
+}
+.rouded{
+    border-radius: 4px;;
+}
+.loader{
+    height: 30px;
+    width:30px;
+    border:2px dashed var(--colour-secondary);
+    /* border-top-color: transparent; */
+    border-radius: 50%;
+    animation: loader-anim 1s linear infinite;
+}
+.disabled-btn{
+    cursor: not-allowed;
+    opacity:0.5;
+}
+.error-message{
+    background-color: brown;
+    color:white;
+    padding:10px;
+    
+}
+.uppercase
+{
+    text-transform: uppercase;
+}
+table{
+   border: 1px solid bisque; 
+}
+.shadow{
+    box-shadow:0 0 10px 0 rgba(0,0,0,0.2);
+    border:1px solid grey;
+}
+@keyframes loader-anim {
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}

@@ -1,0 +1,31 @@
+input,textarea,select{
+    height:40px;
+    width:100%;
+    border:grey 1px solid;
+    padding-left:10px;
+    font-size:14px;
+}
+textarea{
+    min-height:60px;
+    padding-top: 15px;
+}
+.ant-form-item{
+    margin-bottom:12px;
+}
+input:focus{
+    outline:none;
+    border:rgb(160, 149, 149)
+}
+button{
+    height:40px;
+}
+.underline{
+    text-decoration:underline;
+    cursor:pointer
+}
+a:hover{
+    cursor: pointer;
+    font-weight:bolder;
+    color: rgb(121, 121, 214);
+    text-decoration:underline ;
+}
